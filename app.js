@@ -1,8 +1,19 @@
 /*Función forEach*/
 
+var numeros = [12,3,7];
 
+function miForEach(array, callback){
+	var newFor = [];
+for (var i = 0; i<numeros.length; i++){
+	newFor.push(numeros[i]);
+}
 
+console.log(newFor);
+}
 
+miForEach(numeros, function(i){
+	console.log(i)
+});
 
 
 /*Función map*/
