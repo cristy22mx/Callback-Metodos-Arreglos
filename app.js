@@ -57,7 +57,7 @@ miFilter(numeros, function(i){
 
 /*Función reduce*/
 
-function miSort(arreglo, callback){
+function miReduce(arreglo, callback){
 	var suma = 0;
 for(var i = 0; i<numeros.length;i++){
 	suma +=numeros[i];
@@ -66,10 +66,8 @@ for(var i = 0; i<numeros.length;i++){
 console.log(suma);
 	}
 
-miSort(numeros, function(i){
+miReduce(numeros, function(i){
 	console.log(i)
 });
-
-
 
 
